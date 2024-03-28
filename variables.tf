@@ -43,6 +43,7 @@ variable "sensitive_values" {
   type        = list(string)
   description = "Which sensitive values to install for the helm chart."
   default     = []
+  sensitive   = true
 }
 
 variable "repository_username" {
