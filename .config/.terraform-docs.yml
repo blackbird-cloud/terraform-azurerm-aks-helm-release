@@ -14,8 +14,8 @@ sections:
     - modules
 
 content: |-
-  # Azure AKS Helm release Terraform module
-  A Terraform module which configures your Azure AKS Helm release.
+  {{ include "./.config/title.md"}}
+
   {{ .Header }}
 
   ## Example
